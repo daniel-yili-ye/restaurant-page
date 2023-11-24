@@ -1,1 +1,1 @@
-console.log("hello world");
+(()=>{"use strict";!function(){const e=document.getElementById("content"),n=document.createElement("h1");n.innerHTML="RESTAURANT",e.append(n)}()})();
