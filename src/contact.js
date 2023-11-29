@@ -1,10 +1,12 @@
 function Contact() {
-  const contentDiv = document.getElementById("content");
+  const div = document.createElement("div");
+  div.className = "display";
 
-  const h1 = document.createElement("h1");
-  h1.innerHTML = "RESTAURANT";
+  const p = document.createElement("p");
+  p.textContent = "restaurant@restaurant.com";
+  div.appendChild(p);
 
-  contentDiv.append(h1);
+  return div;
 }
 
 export default Contact;
