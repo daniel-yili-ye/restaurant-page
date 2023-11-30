@@ -2,9 +2,10 @@ function Contact() {
   const div = document.createElement("div");
   div.className = "display";
 
-  const p = document.createElement("p");
-  p.textContent = "restaurant@restaurant.com";
-  div.appendChild(p);
+  const a = document.createElement("a");
+  a.href = "mailto:restaurant@restaurant.com";
+  a.textContent = "Contact Us";
+  div.appendChild(a);
 
   return div;
 }
